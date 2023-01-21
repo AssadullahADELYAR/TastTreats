@@ -1,0 +1,273 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+   background-color: #fdfbf9;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1.5rem 6.4rem;
+   border-bottom: 1px solid #f3ebdf;
+   position: relative;
+}
+
+.logo {
+   height: 5rem;
+   padding: 0.5rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 2.4rem;
+}
+
+.main-nav-links:link,
+.main-nav-links:visited {
+   display: inline-block;
+   color: #8a6e43;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 1.8rem;
+   transition: all 0.3s;
+}
+
+.main-nav-links:hover,
+.main-nav-links:active {
+   color: #8f672c;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+   border: none;
+   background: none;
+   cursor: pointer;
+
+   display: none;
+}
+
+.icon-mobile-nav {
+   height: 4.8rem;
+   width: 4.8rem;
+   color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+   display: none;
+}
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+   background-color: #fdfbf9;
+   padding: 4.8rem 4rem;
+}
+
+.hero {
+   max-width: 130rem;
+   display: grid;
+   align-items: center;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 9.6rem;
+   margin: 0 auto;
+}
+
+.hero-description {
+   font-size: 1.8rem;
+   line-height: 1.8;
+   margin-bottom: 8rem;
+}
+.hero-img-box img {
+   width: 90%;
+   border-radius: 50%;
+}
+
+/**************************/
+/* ABOUT US SECTION */
+/**************************/
+
+.section-about {
+   padding: 9.6rem 0;
+}
+
+.about-description {
+   font-size: 1.8rem;
+   line-height: 1.6;
+   letter-spacing: 0.1px;
+   margin-bottom: 4.8rem;
+}
+
+.about-img-box img {
+   width: 100%;
+}
+/**************************/
+/* MENU SECTION */
+/**************************/
+
+.section-menu {
+   padding: 4.8rem 0 9.6rem 0;
+}
+
+.section-menu .btn {
+   text-align: center;
+}
+
+.menu-container {
+   margin: 0 auto;
+   padding-bottom: 6.4rem;
+   font-size: 1.8rem;
+   line-height: 1.6;
+}
+
+.menu-item {
+   display: flex;
+   justify-content: flex-start;
+   gap: 2rem;
+   margin-bottom: 2rem;
+}
+
+.menu-item-text {
+   position: relative;
+   flex: 1;
+}
+
+.menu-item-text:after {
+   position: absolute;
+   right: 48px;
+   top: 17px;
+   content: "";
+   width: 100%;
+   height: 1px;
+   border-bottom: 1px solid;
+   border-image: linear-gradient(to left, #8a6e43 -100%, rgb(58 123 213 / 0%));
+   border-image-slice: 1;
+   z-index: -5;
+}
+
+.price {
+   font-family: "Crimson Pro";
+   color: #8a6e43;
+   font-size: 2rem;
+   font-weight: 700;
+   display: inline-block;
+   position: absolute;
+   right: 0;
+}
+
+.menu-item-img {
+   width: 6.4rem;
+   height: 6.4rem;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.menu-item-img img {
+   width: 100%;
+}
+
+.menu-title {
+   display: inline-block;
+   background: #ffffff;
+   padding-right: 1.6rem;
+   color: #8a6e43;
+}
+
+.menu-description {
+   font-size: 1.6rem;
+   color: #6f6f6f;
+}
+
+/**************************/
+/* GALLERY SECTION */
+/**************************/
+
+.section-gallery {
+   padding: 4.8rem 0 9.6rem 0;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 1.6rem;
+   padding: 1.6rem;
+}
+
+.gallery-item {
+   overflow: hidden;
+}
+
+.gallery-item img {
+   display: block;
+   width: 100%;
+   transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+   transform: scale(1.1);
+}
+
+/**************************/
+/* CONTACT SECTION */
+/**************************/
+
+.section-contact {
+   background-color: #fdfbf9;
+   padding: 9.6rem 0;
+}
+
+.contact {
+   max-width: 86rem;
+   margin: 0 auto;
+   display: grid;
+   row-gap: 9.6rem;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.call,
+.open-hour {
+   border-right: 2px solid #e8d8bf;
+}
+
+.contact h3 {
+   font-family: "Crimson Pro", serif;
+   color: #8a6e43;
+   font-size: 2rem;
+   line-height: 1.2;
+   margin-bottom: 1.6rem;
+}
+
+.contact p {
+   font-size: 1.6rem;
+   font-weight: 700;
+   margin-bottom: 1.6rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+   background-color: #fff;
+   padding: 1.5rem 6.4rem;
+   border-top: 1px solid #eee;
+}
+
+.footer p {
+   font-size: 1.4rem;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer-logo {
+   height: 4rem;
+}

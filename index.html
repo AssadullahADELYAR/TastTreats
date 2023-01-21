@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+         name="description"
+         content="TastyTreats is a restaurant where you can indulge in delicious dishes made with fresh ingredients. Come experience our mouth-watering menu and friendly service today!"
+      />
+
+      <link rel="icon" href="img/favicon.png" />
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700;800&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap"
+         rel="stylesheet"
+      />
+
+      <link rel="stylesheet" href="css/general.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/queries.css" />
+
+      <script
+         type="module"
+         src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+         nomodule=""
+         src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+      ></script>
+
+      <title>Tasty Treats</title>
+   </head>
+   <body>
+      <!-- header -->
+      <header class="header">
+         <div class="logo-container">
+            <img class="logo" alt="logo" src="img/logo.png" />
+         </div>
+
+         <nav class="main-nav">
+            <ul class="main-nav-list">
+               <li><a class="main-nav-links" href="#about">About us</a></li>
+               <li><a class="main-nav-links" href="#menu">Menu</a></li>
+               <li><a class="main-nav-links" href="#gallery">Gallery</a></li>
+               <li><a class="main-nav-links" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+
+         <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+         </button>
+      </header>
+
+      <!-- Hero -->
+      <section class="section-hero">
+         <div class="hero">
+            <div class="hero-text-box">
+               <h1 class="heading-primary">
+                  Feels Like Home, Tastes Like a Paradise.
+               </h1>
+               <p class="hero-description">
+                  TastyTreats is a restaurant where you can indulge in delicious
+                  dishes made with fresh ingredients. Come experience our
+                  mouth-watering menu and friendly service today!
+               </p>
+
+               <a class="btn btn--full" href="#">Our Menu</a>
+            </div>
+
+            <div class="hero-img-box">
+               <img src="hero.webp" alt="" />
+            </div>
+         </div>
+      </section>
+
+      <!-- About us -->
+      <section class="section-about" id="about">
+         <div class="container">
+            <div class="about grid grid--2-cols">
+               <div class="about-text-box">
+                  <h2 class="subheading">About us</h2>
+
+                  <h3 class="heading-secondary">
+                     Enjoy an Exceptional Journey of Taste
+                  </h3>
+
+                  <p class="about-description">
+                     Indulge in a luxurious dining experience at our upscale
+                     restaurant. From the moment you step in, you'll be
+                     enveloped in elegance and refinement. Our skilled chefs use
+                     only the finest ingredients to create delicious dishes that
+                     will tantalize your taste buds. Whether you're celebrating
+                     a special occasion or simply looking for a night of refined
+                     dining, our restaurant is the perfect choice.
+                  </p>
+                  <a class="btn btn--full" href="#">Read more</a>
+               </div>
+               <div class="about-img-box">
+                  <img src="about.webp" alt="Chef cooking food" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Menu -->
+      <section class="section-menu" id="menu">
+         <div class="container">
+            <div class="align-center">
+               <h2 class="subheading">From Our Menu</h2>
+               <h3 class="heading-secondary">Delicious Food Forever</h3>
+
+               <!-- <span class="border-bottom"></span> -->
+            </div>
+            <div class="menu-container grid grid--2-cols">
+               <div class="main-menu">
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item1.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">
+                           Raw Scallops from Erquy
+                        </p>
+                        <p class="menu-description">
+                           Candied Jerusalem artichokes, truffle
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item2.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">
+                           Tender Octopus and Fennel
+                        </p>
+                        <p class="menu-description">
+                           Cucumbers, tomatoes, green pepper, onion
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item3.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">
+                           Celeriac and Truffle Ravioli
+                        </p>
+                        <p class="menu-description">
+                           Roasted langoustine, consommé
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item4.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">The Scallop</p>
+                        <p class="menu-description">
+                           Scallops, pumpkin, coconut and curry
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item5.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">The Parsnip</p>
+                        <p class="menu-description">
+                           Parsnip soufflé, passionfruit and Kaffirlime
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Dessert -->
+               <div class="dessert">
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item3.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">Crémeux chocolat</p>
+                        <p class="menu-description">
+                           Dulce de leche, shortbread
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item4.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">Crème citron</p>
+                        <p class="menu-description">
+                           Fruits de la passion frais, fruits secs sablés
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item5.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">
+                           Assiette de fromages
+                        </p>
+                        <p class="menu-description">Fromages des Capucins</p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item1.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">Thon blanc mi cuit</p>
+                        <p class="menu-description">
+                           Poêlée de haricots et amandes fumées, vierge
+                        </p>
+                     </div>
+                  </div>
+                  <div class="menu-item">
+                     <div class="menu-item-img">
+                        <img src="img/meals/menu-item2.png" alt="" width="80" />
+                     </div>
+                     <div class="menu-item-text">
+                        <span class="price">$35</span>
+                        <p class="menu-title heading-sm">Tartare de boeuf</p>
+                        <p class="menu-description">
+                           Assaisonné au mitmita, sucrine et grenailles
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="align-center">
+               <a class="btn btn--outline" href="#">Browse Menus</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section-gallery" id="gallery">
+         <div class="gallery">
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-1.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+               <!-- <figcaption>Caption</figcaption> -->
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-2.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-3.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-4.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-5.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-6.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-7.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-8.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-9.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-10.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-11.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+            <figure class="gallery-item">
+               <img
+                  src="img/gallery/gallery-12.jpg"
+                  alt="Photo of beautifully
+       arranged food"
+               />
+            </figure>
+         </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section-contact" id="contact">
+         <div class="container">
+            <div class="contact align-center">
+               <div class="call">
+                  <h3 class="contact-title">Call us</h3>
+                  <p class="contact-des">+33 (0) 123-123</p>
+               </div>
+               <div class="open-hour">
+                  <h3 class="contact-title">Open Hours</h3>
+                  <p class="contact-des">11 AM - 11 PM</p>
+               </div>
+               <div class="email">
+                  <h3 class="contact-title">Email us</h3>
+                  <p class="contact-des">info@tasty.com</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+         <div class="container footer-container">
+            <div class="logo-container">
+               <img class="footer-logo" alt="logo" src="img/logo.png" />
+            </div>
+            <p>&copy; All rights reserved | Designed by Assadullah</p>
+         </div>
+      </footer>
+      <script src="js/script.js"></script>
+   </body>
+</html>
